@@ -1,134 +1,51 @@
-
-
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rosélya | Huiles Parfumées</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>My Portfolio | Data Science & BI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">Rosélya.</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#shop">Shop</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>[Smiytek Hna]</h1>
+        <p>Data Science & Business Intelligence Student</p>
+    </header>
 
-    <section class="hero-video">
-        <video autoplay loop muted playsinline class="bg-video">
-            <source src="video.mp4" type="video/mp4">
-        </video>
-        <div class="hero-content">
-            <h1>Natural Perfumes<br>Daily Routine</h1>
-            <p>Découvrez notre collection d'huiles parfumées 100% naturelles.</p>
-            <a href="#shop" class="btn">Shop Now</a>
-        </div>
-    </section>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a passionate student specializing in Data Science and Business Intelligence. I love turning raw data into actionable insights and building machine learning models. I am currently building my digital portfolio to showcase my analytical skills and projects.</p>
+            <a href="lien_dyal_cv_dyalek.pdf" class="btn" target="_blank">📄 View My CV</a>
+        </section>
 
-    <section class="categories-section">
-        <p class="subtitle">SHOP BY CATEGORIES</p>
-        <h2>Popular Categories</h2>
-        <div class="categories-grid">
-            <div class="category-item">
-                <img src="IMG-20260219-WA0008.jpg" alt="Gourmand">
-                <p>Gourmand</p>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>📊 Business Intelligence Dashboard</h3>
+                <p>Created an interactive dashboard using [Tool Name] to analyze sales data and visualize key performance indicators.</p>
+                <a href="#" class="btn">View on GitHub</a>
             </div>
-            <div class="category-item">
-                <img src="IMG-20260219-WA0013.jpg" alt="Floral">
-                <p>Floral</p>
+            <div class="project">
+                <h3>🤖 Predictive Machine Learning Model</h3>
+                <p>Developed a machine learning model in Python to predict [what your model predicts] using a dataset from Kaggle.</p>
+                <a href="#" class="btn">View Notebook</a>
             </div>
-            <div class="category-item">
-                <img src="IMG-20260219-WA0011.jpg" alt="Tropical">
-                <p>Tropical</p>
-            </div>
-            <div class="category-item">
-                <img src="IMG-20260219-WA0010.jpg" alt="Pur">
-                <p>Musc & Pur</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="featured-section">
-        <div class="featured-image">
-            <img src="IMG-20260219-WA0009.jpg" alt="Featured Perfume">
-        </div>
-        <div class="featured-text">
-            <p class="subtitle">BEST OF COLLECTION 2026</p>
-            <h2>Discover a Best of the Best world of Perfumes</h2>
-            <p>Notre compagnie a créé une ligne de parfums naturels pour renforcer notre dévouement à la qualité et au luxe.</p>
-            <a href="#shop" class="btn btn-dark">Read More</a>
-        </div>
-    </section>
-
-    <section id="shop" class="trending-products">
-        <p class="subtitle">TRENDING PRODUCTS</p>
-        <h2>Having a signature scent makes it more likely you'll be remembered.</h2>
-        
-        <div class="product-grid">
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0008.jpg" alt="Caramel"></div>
-                <h3>Caramel</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0009.jpg" alt="Amber Gold"></div>
-                <h3>Amber Gold</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0010.jpg" alt="Musc Blanc"></div>
-                <h3>Musc Blanc Pur</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0011.jpg" alt="Noix de Coco"></div>
-                <h3>Noix de Coco</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0012.jpg" alt="Exotic Garden"></div>
-                <h3>Exotic Garden</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0013.jpg" alt="Fleur"></div>
-                <h3>Fleur</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0014.jpg" alt="Fruit Rouge"></div>
-                <h3>Fruit Rouge</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0015.jpg" alt="Chocolat"></div>
-                <h3>Chocolat</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0016.jpg" alt="Miel"></div>
-                <h3>Miel Délicat</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-            <div class="product-card">
-                <div class="img-container"><img src="IMG-20260219-WA0017.jpg" alt="Vanille"></div>
-                <h3>Vanille</h3>
-                <p class="price">150.00 DH</p>
-            </div>
-        </div>
-    </section>
+        <section id="connect">
+            <h2>Let's Connect</h2>
+            <p>You can find more of my work and datasets on my professional profiles:</p>
+            <a href="lien_dyal_github" class="btn" target="_blank">💻 GitHub</a>
+            <a href="lien_dyal_kaggle" class="btn" target="_blank">📈 Kaggle</a>
+            <a href="lien_dyal_linkedin" class="btn" target="_blank">🔗 LinkedIn</a>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2026 Rosélya. Tous droits réservés.</p>
-    </Footer>
+        <p>&copy; 2026 [Smiytek]. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
-
-            
