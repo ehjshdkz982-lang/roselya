@@ -1,0 +1,108 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf9f6; /* Un blanc cassé/beige très clair */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Typographie pour les titres */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+/* En-tête (Hero section) */
+.hero {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: #b8975a; /* Doré inspiré des bouchons */
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 300;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #2c2c2c;
+}
+
+/* Grille des produits */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Cartes des produits */
+.product-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /* Assure que toutes les images ont la même taille */
+    border-bottom: 2px solid #f4eedc;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-info h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.product-info p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-top: 1px solid #eaeaea;
+    color: #888;
+    font-size: 0.9rem;
+}
