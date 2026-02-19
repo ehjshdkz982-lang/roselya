@@ -5,104 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosélya | Huiles Parfumées</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="hero">
+    <nav class="navbar">
+        <div class="logo">Rosélya.</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-video">
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="video.mp4" type="video/mp4">
+        </video>
         <div class="hero-content">
-            <h1>Rosélya</h1>
-            <p>Découvrez notre collection exclusive d'huiles parfumées.</p>
+            <h1>Natural Perfumes<br>Daily Routine</h1>
+            <p>Découvrez notre collection d'huiles parfumées 100% naturelles.</p>
+            <a href="#shop" class="btn">Shop Now</a>
         </div>
-    </header>
+    </section>
 
-    <main class="container">
-        <h2 class="section-title">Notre Collection</h2>
+    <section class="categories-section">
+        <p class="subtitle">SHOP BY CATEGORIES</p>
+        <h2>Popular Categories</h2>
+        <div class="categories-grid">
+            <div class="category-item">
+                <img src="IMG-20260219-WA0008.jpg" alt="Gourmand">
+                <p>Gourmand</p>
+            </div>
+            <div class="category-item">
+                <img src="IMG-20260219-WA0013.jpg" alt="Floral">
+                <p>Floral</p>
+            </div>
+            <div class="category-item">
+                <img src="IMG-20260219-WA0011.jpg" alt="Tropical">
+                <p>Tropical</p>
+            </div>
+            <div class="category-item">
+                <img src="IMG-20260219-WA0010.jpg" alt="Pur">
+                <p>Musc & Pur</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="featured-image">
+            <img src="IMG-20260219-WA0009.jpg" alt="Featured Perfume">
+        </div>
+        <div class="featured-text">
+            <p class="subtitle">BEST OF COLLECTION 2026</p>
+            <h2>Discover a Best of the Best world of Perfumes</h2>
+            <p>Notre compagnie a créé une ligne de parfums naturels pour renforcer notre dévouement à la qualité et au luxe.</p>
+            <a href="#shop" class="btn btn-dark">Read More</a>
+        </div>
+    </section>
+
+    <section id="shop" class="trending-products">
+        <p class="subtitle">TRENDING PRODUCTS</p>
+        <h2>Having a signature scent makes it more likely you'll be remembered.</h2>
+        
         <div class="product-grid">
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0008.jpg" alt="Huile Parfumée Caramel">
-                <div class="product-info">
-                    <h3>Caramel</h3>
-                    <p>Notes douces et gourmandes</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0008.jpg" alt="Caramel"></div>
+                <h3>Caramel</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0009.jpg" alt="Huile Parfumée Amber Gold">
-                <div class="product-info">
-                    <h3>Amber Gold</h3>
-                    <p>Chaleur ambrée et précieuse</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0009.jpg" alt="Amber Gold"></div>
+                <h3>Amber Gold</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0010.jpg" alt="Huile Parfumée Musc Blanc Pur">
-                <div class="product-info">
-                    <h3>Musc Blanc Pur</h3>
-                    <p>Pureté et douceur infinie</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0010.jpg" alt="Musc Blanc"></div>
+                <h3>Musc Blanc Pur</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0011.jpg" alt="Huile Parfumée Noix de Coco">
-                <div class="product-info">
-                    <h3>Noix de Coco</h3>
-                    <p>Évasion tropicale</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0011.jpg" alt="Noix de Coco"></div>
+                <h3>Noix de Coco</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0012.jpg" alt="Huile Parfumée Exotic Garden">
-                <div class="product-info">
-                    <h3>Exotic Garden</h3>
-                    <p>Voyage fruité et exotique</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0012.jpg" alt="Exotic Garden"></div>
+                <h3>Exotic Garden</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0013.jpg" alt="Huile Parfumée Fleur">
-                <div class="product-info">
-                    <h3>Fleur</h3>
-                    <p>Bouquet floral délicat</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0013.jpg" alt="Fleur"></div>
+                <h3>Fleur</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0014.jpg" alt="Huile Parfumée Fruit Rouge Enchanté">
-                <div class="product-info">
-                    <h3>Fruit Rouge Enchanté</h3>
-                    <p>Éclat pétillant de baies</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0014.jpg" alt="Fruit Rouge"></div>
+                <h3>Fruit Rouge</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0015.jpg" alt="Huile Parfumée Chocolat">
-                <div class="product-info">
-                    <h3>Chocolat</h3>
-                    <p>Intense et réconfortant</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0015.jpg" alt="Chocolat"></div>
+                <h3>Chocolat</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0016.jpg" alt="Huile Parfumée Miel Délicat">
-                <div class="product-info">
-                    <h3>Miel Délicat</h3>
-                    <p>Nectar sucré et apaisant</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0016.jpg" alt="Miel"></div>
+                <h3>Miel Délicat</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
             <div class="product-card">
-                <img src="IMG-20260219-WA0017.jpg" alt="Huile Parfumée Vanille">
-                <div class="product-info">
-                    <h3>Vanille</h3>
-                    <p>Classique, riche et onctueux</p>
-                </div>
+                <div class="img-container"><img src="IMG-20260219-WA0017.jpg" alt="Vanille"></div>
+                <h3>Vanille</h3>
+                <p class="price">150.00 DH</p>
             </div>
-
         </div>
-    </main>
+    </section>
 
     <footer>
         <p>&copy; 2026 Rosélya. Tous droits réservés.</p>
@@ -110,3 +129,5 @@
 
 </body>
 </html>
+
+            
